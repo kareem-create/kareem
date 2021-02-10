@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <style>
+            body{
+                background-color:#ffb433;
+              
+                }
+            p{
+font-size: 25px;
+}
+        </style>
+    </head>
+    <b><body><b>
+        
+        <form action="lab3attach.html" target="_blank">
+             
+           <h1> <img src="C:\Users\kkhan57\Desktop\DSUlogo.PNG" width="400" height="200"> Online Registration Form Of DSU (Dayanada Sagar University).</h1>
+                <img src="https://www.dsu.edu.in/images/3.jpg" width="1890" height="300"><br><br>
+
+             <b><p>REGISTER:</p><b>
+                 
+            <label>First Name: </label>
+            <input type="textbox" name="FirtName"><br><br>
+            <label>Last Name: </label>
+            <input type="textbox" name="LastName"><br><br>
+            <label>Email-Id: </label>
+            <input type="email" name="Email"><br><br>
+            <label>Password: </label>
+            <input type="password" name="password"><br><br>
+            <label>Re-Type Password: </label>
+            <input type="password" name="password"><br><br>
+            <label>Phone no +91: </label>
+            <input type="number" name="phonenumber"><br><br>
+            <p1>Gender:</p1><br>
+            <input type="radio" name="Gender">
+            <label>Male</label><br>
+            <input type="radio" name="Gender">
+            <label>Female</label><br>
+            <input type="radio" name="Gender">
+            <label>Other</label><br><br>
+            <label>Birthday:</label>
+            <input type="date"><br><br>
+            <label>Address:</label>
+            <textarea type="textarea" rows="6" cols="25"></textarea><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form> <br><br>
+<img src="C:\Users\kkhan57\Desktop\DSUbottom.PNG" width="1895" height="750">
+    </body>
+</html>
